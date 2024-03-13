@@ -36,6 +36,13 @@
 		</dependency>
 	</dependencies>
 
+	<!-- Goblal Handler Exception -->
+	<dependency>
+		<groupId>jakarta.annotation</groupId>
+		<artifactId>jakarta.annotation-api</artifactId>
+		<version>3.0.0-M1</version>
+	</dependency>
+
 	<build>
 		<plugins>
 			<plugin>
