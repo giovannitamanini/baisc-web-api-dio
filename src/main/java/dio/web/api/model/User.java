@@ -1,6 +1,6 @@
 package dio.web.api.model;
 
-public class Usuario {
+public class User {
 
     private Integer id;
 
@@ -8,9 +8,9 @@ public class Usuario {
 
     private String password;
 
-    public Usuario() {}
+    public User() {}
 
-    public Usuario(String login, String password) {
+    public User(String login, String password) {
         this.login = login;
         this.password = password;
     }
